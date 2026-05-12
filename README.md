@@ -67,9 +67,13 @@ Class weights (AI: 1.1252, Human: 0.8999) were applied to handle distribution im
 
 The model has very high recall for human text (0.99) and high precision for AI detection (0.94). Explainability analysis was performed using both LIME and SHAP.
 
+## Open in Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Taab-cyber/AI-vs-Human-Text-Detector-RoBERTa/blob/main/main%20colab%20file.ipynb)
+
 ## How to Run
 
-1. Open `main colab file.ipynb` in [Google Colab](https://colab.research.google.com/)
+1. Click the **Open in Colab** badge above (or [open directly](https://colab.research.google.com/github/Taab-cyber/AI-vs-Human-Text-Detector-RoBERTa/blob/main/main%20colab%20file.ipynb))
 2. Upload `data.xlsx` and `Test_data.csv` when prompted
 3. Set runtime to **GPU** (Runtime > Change runtime type > T4 GPU)
 4. Run all cells -- the notebook will prompt for a Weights & Biases API key (optional)
